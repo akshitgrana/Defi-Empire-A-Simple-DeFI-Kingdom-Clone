@@ -14,7 +14,7 @@ This project is designed to teach you how to create your own custom subnet using
    - To call the avalanche binary from anywhere, you'll need to add it to your system path. If you installed the binary into the default location, you can run the following snippet to add it to your path.
    - In a terminal, run:
      ```bash
-     export PATH=~/bin:$PATH >>
+     export PATH=~/bin:$PATH
      ``` 
 
 To add it to your path permanently, add an export command to your shell initialization script. If you run bash, use .bashrc. If you run zsh, use .zshrc.
