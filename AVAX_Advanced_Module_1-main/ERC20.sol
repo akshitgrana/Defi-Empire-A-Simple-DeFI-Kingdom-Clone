@@ -7,8 +7,8 @@ contract ERC20 {
     mapping(address => uint) public balanceOf;
     mapping(address => mapping(address => uint)) public allowance; 
     
-    string public name = "LinuxEDU";
-    string public symbol = "LNXED";
+    string public name = "akshit";
+    string public symbol = "GRANA";
     uint8 public decimals = 18;
 
 	event Transfer(address indexed from, address indexed to, uint value);
