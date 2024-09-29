@@ -1,11 +1,9 @@
-# AVAX_Advanced_Module_1
+# Defi-Empire-A-Simple-DeFI-Kingdom-Clone
 
 ## Project Description
 
 This project is designed to teach you how to create your own custom subnet using the Avalanche SubnetEVM. You will learn how to deploy this subnet to the local network and then deploy your own contracts to the custom subnet.
 
-## Video Walkthrough
-https://www.loom.com/share/bcc76b763c7d4134a992b01765cd4fbe?sid=ea120afa-bc9e-4a34-9585-eef65a754bb6
 
 ## Steps to Run the Project
 
@@ -13,6 +11,13 @@ https://www.loom.com/share/bcc76b763c7d4134a992b01765cd4fbe?sid=ea120afa-bc9e-4a
 
 1. **Install Avalanche CLI**
    - Install `avalanche-cli` on your UNIX system. Follow the guide [here](https://docs.avax.network/tooling/cli-guides/install-avalanche-cli).
+   - To call the avalanche binary from anywhere, you'll need to add it to your system path. If you installed the binary into the default location, you can run the following snippet to add it to your path.
+   - In a terminal, run:
+     ```bash
+     export PATH=~/bin:$PATH >>
+     ``` 
+
+To add it to your path permanently, add an export command to your shell initialization script. If you run bash, use .bashrc. If you run zsh, use .zshrc.
 
 2. **Copy and Test Contracts**
    - Copy `ERC20.sol` and `Vault.sol` from this repository.
@@ -38,12 +43,12 @@ https://www.loom.com/share/bcc76b763c7d4134a992b01765cd4fbe?sid=ea120afa-bc9e-4a
 6. **Output Interpretation**
    - The command output will include details such as:
      ```
-     RPC URL:           http://127.0.0.1:9650/ext/bc/25LfFJ8UxCMYtj3gMVXSTddRHcbKrsDF4ySe5hx6bu2etwQyzS/rpc
-     Funded address:    0x9EfeD1ce512B6c23a838bb34B80154183e8262aB with 1000000 (10^18) - private key: 5843e5dac1fff94f5425ff511d2bde6f42527a7489fcc8b9404aa96075510cea
-     Funded address:    0xe705E1C5d619f11c26F851cdAD7BA4C7Eb89bf4f with 600 (10^18)
-     Network name:      customSubnet
-     Chain ID:          12345
-     Currency Symbol:   LNXEDU
+     RPC URL:           http://127.0.0.1:9650/ext/bc/2Jz8iH5KWAeYeutjeR7e2ymnyhTd8fvUB4bmsJ2PWLHnriQDcD/rpc
+     Funded address:    0x8db97C7cEcE249c2b98bDC0226Cc4C2A57BF52FC with 1000000 (10^18) - private key: 56289e99c94b6912bfc12adc093c9b51124f0dc54ac7a766b2bc5ccf558d8027
+     Funded address:    0xe5aAa2A447e1D00D239ecDFad391ee669eF891Bd with 600 (10^18)
+     Network name:      akshit
+     Chain ID:          234
+     Currency Symbol:   ADI
      ```
 
 7. **Add Custom Network in MetaMask**
@@ -63,7 +68,7 @@ https://www.loom.com/share/bcc76b763c7d4134a992b01765cd4fbe?sid=ea120afa-bc9e-4a
 
 ## Contributors
 
-- Metacrafter Om Satapathy (Twitter: [@OmSatapathy4](https://twitter.com/OmSatapathy4))
+- Metacrafter Akshit G Rana
 
 ## License
 
