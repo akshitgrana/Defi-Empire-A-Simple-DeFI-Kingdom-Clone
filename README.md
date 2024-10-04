@@ -3,8 +3,8 @@
 ## Project Description
 
 This project is designed to teach you how to create your own custom subnet using the Avalanche SubnetEVM. You will learn how to deploy this subnet to the local network and then deploy your own contracts to the custom subnet.
-
-
+## Video Walkthrough
+https://www.loom.com/share/937bc542b95f405091da03ce0ca454b8?sid=ec1e7c8f-c3ca-4e0f-bf36-2091e60e734d
 ## Steps to Run the Project
 
 ### Using Remix IDE and Terminal (Easier Way)
